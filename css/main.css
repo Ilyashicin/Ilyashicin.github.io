@@ -313,13 +313,14 @@ main {
   background-color: #4b73b5;
 }
 
+
 .pagination__link{
   color: #221f1f;
   font-size: 14px;
   font-weight: 700;
 }
 
-.pagination__link-active{
+.pagination__link--active{
   color: white;
 }
 
