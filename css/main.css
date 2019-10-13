@@ -1,3 +1,325 @@
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
 header {
   background-color: #4b73b5;
 }
+
+.container {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.header__container {
+  position: relative;
+  height: 77px;
+  margin-bottom: 12px;
+}
+
+.header__logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.contacts {
+  position: absolute;
+  top: 20px;
+  right: 21px;
+  text-align: right;
+  color: #ffffff;
+}
+
+.contacts__phone {
+  font-size: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+ }
+
+.hours {
+  opacity: 0.7;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+aside, main {
+  display: inline-block;
+  vertical-align: top;
+}
+
+aside {
+  width: 200px;
+}
+
+main {
+ width: 890px;
+}
+
+.main__picture-plane {
+  width: 1007px;
+  height: 299px;
+}
+
+.title__section {
+  color: #221f1f;
+  font-size: 49px;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+
+.tarifs__item {
+  display: inline-block;
+  text-align: center;
+  width: 250px;
+  margin-right: 20px;
+  
+}
+
+.tarifs__item:hover {
+  border-radius: 5px;
+  border: 1px solid #e8e9ed;
+}
+
+/**.tarifs__icon-container {
+  border: 10px solid #4b73b5;
+  border-radius: 50%;
+width: 68px;
+height: 68px;
+} **/
+
+.tarifs__icon-container {
+  width: 68px;
+  height: 68px;
+  background-color: #4b73b5;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 41px;
+}
+
+.tarifs__icon {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title__list {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #212121;
+  letter-spacing: 2.88px;
+  font-weight: 700;
+}
+
+.tarifs__desc-container {
+  width: 188px;
+  display: inline-block;
+  text-align: center;
+}
+
+.tarifs__item p, .ul-list__item {
+  color: #221f1f;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.ul-list {
+  display: inline-block;
+  text-align: center;
+}
+
+.ul-list__item {
+  list-style: disc;
+  text-align: left;
+}
+
+.price {
+  margin-top: 35px;
+  color: #212121;
+  font-size: 54px;
+  font-weight: 400;
+  letter-spacing: -1.07px;
+  margin-bottom: 48px;
+}
+
+.currency {
+  font-size: 35px;
+}
+
+.content-list__item {
+  border-bottom: 1px solid #e8e9ed;
+}
+
+.content-list__item:last-child{
+  border-bottom: 0;
+}
+
+.content-list__content, .avatar {
+  display: inline-block;
+  text-align: top;
+}
+
+.avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 15px;
+
+}
+
+.avatar__img {
+  height: 160px;
+}
+
+.content-list__content {
+  width: 644px;
+  text-align: top;
+}
+
+.content-list__date {
+  color: #656464;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.content-list__title {
+  font-weight: 700;
+  margin-top: 10px;
+  
+}
+
+.content-list__text {
+  line-height: 30px;
+}
+
+.pagination {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.pagination__controls, .pagination__item, .pagination__list, .pagination__display, .about-us, .title__socials, .socials__list, .socials__item {
+  display: inline-block;
+}
+
+
+.pagination__display {
+  font-size: 14px;
+  font-weight: 300;
+  color: #656464;
+  margin-right: 10px;
+}
+
+.pagination__item {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.pagination__item:first-child{
+  background-color: #4b73b5;
+}
+
+.pagination__link{
+  color: #221f1f;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.pagination__link-active{
+  color: white;
+}
+
+footer {
+  background-color: #4b73b5;
+
+}
+
+.footer__container {
+  position: relative;
+  height: 77px;
+}
+
+.about-us {
+  width: 250px;
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about-us a {
+  text-decoration: underline;
+  color: white;
+  font-weight: 700;
+}
+
+.footer__logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.socials {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.title__socials {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.socials__item {
+  margin-left: 5px;
+}
+
+.link-icon__container {
+  position: relative;
+  background-color: #d2def3;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.link-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.link-icon__container:hover {
+  background-color: #ffffff;
+}
+

@@ -4,19 +4,20 @@
     <meta charset="utf-8">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700&display=swap&subset=cyrillic" rel="stylesheet">
   </head>
     <body>
       <div class="wrapper">
         <header class="page-header">
-          <div class="container">
-            <a href="#" class="logo">
-              <img src="" class="logo__pic" alt="Логотип">
+          <div class="container header__container">
+            <a href="#" class="header__logo">
+              <img src="img/logo_header.png" class="logo__pic" alt="Логотип">
             </a>
             <div class="contacts">
-              <a href="tel:+78000039210" class="contacts__phone">8(800)00-392-10</a>
+              <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a><br>
                 <span class="contacts__hours hours">График работы <br>
-                  пн-вс: 9:00-20:00
-                  обед: 14:00-14:30
+                  <!--пн-вс: 9:00-20:00
+                  обед: 14:00-14:30-->
                 </span>
             </div>
           </div>
@@ -47,47 +48,54 @@
               </nav>
             </aside>
             <main class="page-content">
+              <img class="main__pictire-plane" src="img/Photo.png" alt="plane">
               <section class="tarifs">
                 <h2 class="title__section">Тарифы</h2>
                 <ul class="tarifs__list">
                   <li class="tarifs__item tarif">
-                    <img src="#" alt="Стандарт" class="tarifs__icon" role="presentation">
+                    <!--<div class="tarifs__icon-container"></div>-->
+                      <div class="tarifs__icon-container"><img src="img/flower.png" alt="Стандарт" class="tarifs__icon" role="presentation"></div>
                     <h4 class="title__list">Стандарт</h4>
-                    <p class="tarifs__desc">
-                      Создан для вашего комфортного отдыха
-                    </p>
-                    <ul class="ul-list">
+                    <div class="tarifs__desc-container">
+                      <p class="tarifs__desc">
+                      Создан для вашего комфортного отдыха</p>
+                      <ul class="ul-list">
                       <li class="ul-list__item">Питание включено</li>
                       <li class="ul-list__item">Багаж (5 кг)</li>
                       <li class="ul-list__item">Детское кресло</li>
-                    </ul>
-                    <div class="price">$19</div>
+                      </ul>
+                    </div>
+                    <div class="price"><span class="currency">$</span>19</div>
                   </li>
                   <li class="tarifs__item tarif">
-                    <img src="#" alt="Премиум" class="tarifs__icon" role="presentation">
+                      <div class="tarifs__icon-container"><img src="img/mark-as-favorite-star.png" alt="Премиум" class="tarifs__icon" role="presentation"></div>
                     <h4 class="title__list">Премиум</h4>
-                    <p class="tarifs__desc">
+                    <div class="tarifs__desc-container">
+                      <p class="tarifs__desc">
                       Для любителей хороших впечатлений
-                    </p>
-                    <ul class="ul-list">
+                      </p>
+                      <ul class="ul-list">
                       <li class="ul-list__item">Питание включено</li>
                       <li class="ul-list__item">Багаж (5 кг)</li>
                       <li class="ul-list__item">Детское кресло</li>
-                    </ul>
-                    <div class="price">$39</div>
+                      </ul>
+                    </div>
+                    <div class="price"><span class="currency">$</span>39</div>
                   </li>
                   <li class="tarifs__item tarif">
-                    <img src="#" alt="Лакшери" class="tarifs__icon" role="presentation">
+                      <div class="tarifs__icon-container"><img src="img/painter-palette.png" alt="Лакшери" class="tarifs__icon" role="presentation"></div>
                     <h4 class="title__list">Лакшери</h4>
-                    <p class="tarifs__desc">
+                    <div class="tarifs__desc-container">
+                      <p class="tarifs__desc">
                        Всё самое лучшее и незабываемое
-                    </p>
-                    <ul class="ul-list">
+                      </p>
+                      <ul class="ul-list">
                       <li class="ul-list__item">Питание включено</li>
                       <li class="ul-list__item">Багаж (5 кг)</li>
                       <li class="ul-list__item">Детское кресло</li>
-                    </ul>
-                    <div class="price">$99</div>
+                      </ul>
+                    </div>
+                    <div class="price"><span class="currency">$</span>99</div>
                   </li>
                 </ul>
               </section>
@@ -95,14 +103,15 @@
                 <h2 class="title__section">Последние новости</h2>
                 <ul class="content-list">
                   <li class="content-list__item">
-                    <img src="#" alt="" class="avatar">
+                    <div class="avatar"><img src="img/planeflying.png" alt="" class="avatar__img"></div>
                     <div class="content-list__content">
                       <div class="content-list__date">12.10.2016</div>
                       <h3 class="content-list__title">Ночные перелеты дешевле!</h3>
+                      <p class="content-list__text">Летящий в ночном небе самолет — зрелище загадочное и романтическое. Крылатая машина величественно плывет в вышине, мерцая разноцветными огнями, и почему-то кажется, что она наполнена удивительными людьми, спешащими далеко-далеко по очень важным делам. </p>
                     </div>
                   </li>
                   <li class="content-list__item">
-                    <img src="#" alt="" class="avatar">
+                    <img src="img/Photo (2).png" alt="" class="avatar">
                     <div class="content-list__content">  
                       <div class="content-list__date">01.02.2016</div>
                       <h3 class="content-list__title">Путешествие в Грузию стало доступнее</h3>
@@ -110,7 +119,7 @@
                     </div>
                   </li>
                   <li class="content-list__item">
-                    <img src="#" alt="" class="avatar">
+                    <img src="img/Layer_5 (1).png" alt="" class="avatar">
                     <div class="content-list__content">
                       <div class="content-list__date">22.12.2015</div>
                       <h3 class="content-list__title">Детские авиабилеты доступны для бизнес-класса</h3>
@@ -128,7 +137,7 @@
                 <div class="pagination__controls">
                   <a href="#" class="pagination__controls-prev">&lt;</a>
                   <ul class="pagination__list">
-                    <li class="pagination__item"><a href="#" class="pagination__link">1</a></li>
+                    <li class="pagination__item"><a href="#" class="pagination__link-active">1</a></li>
                     <li class="pagination__item"><a href="#" class="pagination__link">2</a></li>
                     <li class="pagination__item"><a href="#" class="pagination__link">3</a></li>
                     <li class="pagination__item"><a href="#" class="pagination__link">4</a></li>
@@ -141,28 +150,49 @@
                 </div>
             </main>
           </div>
-          <footer class="page-footer">
-            <div class="container">
+        <footer class="page-footer">
+            <div class="container footer__container">
               <div class="about-us">
-                Сделано с любовью и старанием
+                <p>Сделано с любовью и старанием
                 на курсе «HTML + CSS» в <a href="https://loftschool.com/">LoftSchool</a>
-                Автор работы: <b>Прохладов Вадим</b>
+                Автор работы: <b>Прохладов Вадим</b></p>
               </div>
-              <a href="#" class="logo">
-                <img src="" class="logo__pic" alt="Логотип">
+              <a href="#" class="footer__logo">
+                <img src="img/logo_header.png" class="logo__pic" alt="Логотип">
               </a>
               <div class="socials">
-                <h5 class="title__socials">Наши социальные сети</h5>
-                  <ul class="socials__list">
-                    <li class="socials__item"><a href="#" class="contacts">vk</a></li>
-                    <li class="socials__item"><a href="#" class="contacts">f</a></li>
-                    <li class="socials__item"><a href="#" class="contacts">g+</a></li>
-                    <li class="socials__item"><a href="#" class="contacts">twtr</a></li>
-                    <li class="socials__item"><a href="#" class="contacts">post</a></li>
-                  </ul>
+                <h5 class="title__socials">Наши социальные сети</h5><br>
+                <ul class="socials__list">
+                  <li class="socials__item"><a href="#" class="socials__link">
+                      <div class="link-icon__container">
+                        <img src="img/web/vk.png" alt="vk" class="link-icon" role="presentation">
+                      </div>
+                  </a></li>
+                  <li class="socials__item"><a href="#" class="socials__link">
+                      <div class="link-icon__container">
+                        <img src="img/web/fb.png" alt="fb" class="link-icon" role="presentation">
+                      </div>
+                  </a></li>
+                  <li class="socials__item"><a href="#" class="socials__link">
+                      <div class="link-icon__container">
+                        <img src="img/web/google.png" alt="gl" class="link-icon" role="presentation">
+                      </div>
+                  </a></li>
+                  <li class="socials__item"><a href="#" class="socials__link">
+                      <div class="link-icon__container">
+                        <img src="img/web/twitter.png" alt="tw" class="link-icon" role="presentation">
+                      </div>
+                  </a></li>
+                  <li class="socials__item"><a href="#" class="socials__link">
+                      <div class="link-icon__container">
+                        <img src="img/web/mail.png" alt="ml" class="link-icon" role="presentation">
+                      </div>
+                  </a></li>
+                </ul>
               </div>
             </div>
-          </footer>
+          
+        </footer>
         </div>    
     </body>
 </html>
