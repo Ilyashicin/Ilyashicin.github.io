@@ -67,9 +67,87 @@ aside {
   width: 200px;
 }
 
+.nav__list {
+  margin-top: 45px;
+}
+
+.nav__link:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 23px;
+  height: 18px;
+  margin-right: 17px;
+  margin-left: 18px;
+}
+
+[class^="nav__item"] {
+  margin-bottom: 30px;
+}
+
+.nav__link {
+  color: #4b73b5;
+  font-size: 12px;
+  font-weight: 700; 
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  background: center center /contain;
+}
+
+.nav__link--icon--arrow:before {
+  background-image: url("../img/main_icon_blue.png");
+  background-repeat: no-repeat;
+}
+
+.nav__link--icon--star:before {
+  background-image: url("../img/feed_icon.png");
+  background-repeat: no-repeat;
+}
+.nav__link--icon--crew:before {
+  background-image: url("../img/team_icon.png");
+  background-repeat: no-repeat;
+}
+
+.nav__link:hover {
+  color: #221f1f;
+}
+
+.nav__item--active .nav__link {
+  color: #221f1f;
+}
+
+.nav__link--icon--arrow:hover:before{
+  background-image: url("../img/main_icon.png");
+  background-repeat: no-repeat;
+}
+
+.nav__link--icon--star:hover:before {
+  background-image: url("../img/feed_icon.png");
+  background-repeat: no-repeat;
+}
+.nav__link--icon--crew:hover:before{
+  background-image: url("../img/team_icon_black.png");
+  background-repeat: no-repeat;
+}
+
+.nav__item--active .nav__link--icon--arrow:before{
+  background-image: url("../img/main_icon.png");
+  background-repeat: no-repeat;
+}
+
+.nav__item--active .nav__link--icon--star:before {
+  background-image: url("../img/feed_icon.png");
+  background-repeat: no-repeat;
+}
+.nav__item--active .nav__link--icon--crew:before{
+  background-image: url("../img/team_icon_black.png");
+  background-repeat: no-repeat;
+}
+
 main {
  width: 890px;
 }
+
 
 .main__picture-plane {
   width: 1007px;
@@ -95,13 +173,6 @@ main {
   border-radius: 5px;
   border: 1px solid #e8e9ed;
 }
-
-/**.tarifs__icon-container {
-  border: 10px solid #4b73b5;
-  border-radius: 50%;
-width: 68px;
-height: 68px;
-} **/
 
 .tarifs__icon-container {
   width: 68px;
