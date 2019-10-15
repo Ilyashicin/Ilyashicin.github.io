@@ -1,6 +1,10 @@
 body {
   margin: 0px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif; 
+}
+
+* {
+  box-sizing: border-box;
 }
 
 a {
@@ -16,31 +20,39 @@ ul li {
   list-style: none;
 }
 
+.title__section {
+  margin-top: 0;
+}
+
 header {
   background-color: #4b73b5;
 }
 
 .container {
   margin: 0 auto;
-  width: 1100px;
+  width: 1060px;
 }
 
 .header__container {
   position: relative;
   height: 77px;
-  margin-bottom: 12px;
+}
+
+.main__pictire-plane {
+  margin-top: 12px;
+  margin-bottom: 16px;
 }
 
 .header__logo {
   position: absolute;
-  left: 20px;
+  left: 0px;
   top: 20px;
 }
 
 .contacts {
   position: absolute;
   top: 20px;
-  right: 21px;
+  right: 0px;
   text-align: right;
   color: #ffffff;
 }
@@ -64,12 +76,11 @@ aside, main {
 }
 
 aside {
-  width: 200px;
+  width: 180px;
+  padding-top: 45px;
 }
 
-.nav__list {
-  margin-top: 45px;
-}
+
 
 .nav__link:before {
   content: "";
@@ -78,11 +89,14 @@ aside {
   width: 23px;
   height: 18px;
   margin-right: 17px;
-  margin-left: 18px;
 }
 
-[class^="nav__item"] {
+.nav__item {
   margin-bottom: 30px;
+}
+
+.nav__item:last-child {
+  margin-bottom: 0px;
 }
 
 .nav__link {
@@ -145,13 +159,17 @@ aside {
 }
 
 main {
- width: 890px;
+ width: 875px;
 }
 
 
 .main__picture-plane {
   width: 1007px;
   height: 299px;
+}
+
+.tarifs {
+  margin-bottom: 60px;
 }
 
 .title__section {
@@ -161,11 +179,18 @@ main {
   margin-bottom: 27px;
 }
 
+.tarifs__list {
+  margin-left: -20px;
+}
+
 .tarifs__item {
   display: inline-block;
   text-align: center;
   width: 250px;
-  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 41px;
+  padding-bottom: 48px;
+  border: 1px solid transparent;
   
 }
 
@@ -182,7 +207,7 @@ main {
   text-align: center;
   border-radius: 50%;
   position: relative;
-  margin-top: 41px;
+  margin-bottom: 35px;
 }
 
 .tarifs__icon {
@@ -199,19 +224,22 @@ main {
   color: #212121;
   letter-spacing: 2.88px;
   font-weight: 700;
+  margin-top: 0;
 }
 
 .tarifs__desc-container {
-  width: 188px;
   display: inline-block;
   text-align: center;
-}
-
-.tarifs__item p, .ul-list__item {
   color: #221f1f;
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
+  margin-bottom: 35px;
+}
+
+.tarifs__item p, .ul-list__item {
+  margin-top: 0px;
+  width: 188px;
 }
 
 .ul-list {
@@ -220,34 +248,53 @@ main {
 }
 
 .ul-list__item {
-  list-style: disc;
   text-align: left;
+  position: relative;
+  padding-left: 25px;
+}
+
+.ul-list__item::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%)
 }
 
 .price {
-  margin-top: 35px;
   color: #212121;
   font-size: 54px;
   font-weight: 400;
   letter-spacing: -1.07px;
-  margin-bottom: 48px;
 }
 
 .currency {
   font-size: 35px;
 }
 
+.news {
+  margin-bottom: 50px;
+}
+
 .content-list__item {
   border-bottom: 1px solid #e8e9ed;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .content-list__item:last-child{
   border-bottom: 0;
+  margin-bottom: 0;
 }
 
 .content-list__content, .avatar {
   display: inline-block;
-  text-align: top;
+  vertical-align: middle;
 }
 
 .avatar {
@@ -260,7 +307,9 @@ main {
 }
 
 .avatar__img {
-  height: 160px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .content-list__content {
@@ -272,23 +321,28 @@ main {
   color: #656464;
   font-size: 14px;
   font-weight: 300;
-  margin-top: 20px;
+  margin-bottom: 7px;
 }
 
 .content-list__title {
   font-weight: 700;
-  margin-top: 10px;
-  
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .content-list__text {
   line-height: 30px;
+  margin: 0;
 }
 
 .pagination {
-  margin-top: 50px;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.pagination__controls-disabled {
+  color: #cccccc; 
+  cursor: text;
 }
 
 .pagination__controls, .pagination__item, .pagination__list, .pagination__display, .about-us, .title__socials, .socials__list, .socials__item {
@@ -322,10 +376,12 @@ main {
 
 .pagination__link--active{
   color: white;
+  line-height: 25px;
 }
 
 footer {
   background-color: #4b73b5;
+  color: white;
 
 }
 
@@ -338,7 +394,6 @@ footer {
   width: 250px;
   font-size: 14px;
   font-weight: 300;
-  color: white;
   position: absolute;
   top: 0;
   left: 0;
@@ -346,8 +401,8 @@ footer {
 
 .about-us a {
   text-decoration: underline;
-  color: white;
   font-weight: 700;
+  color: inherit;
 }
 
 .footer__logo {
@@ -367,7 +422,6 @@ footer {
 .title__socials {
   font-size: 14px;
   font-weight: 700;
-  color: white;
   margin: 0 auto;
   margin-bottom: 10px;
 }
