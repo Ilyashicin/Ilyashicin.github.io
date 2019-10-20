@@ -1,0 +1,19 @@
+
+
+.contacts {
+  text-align: right;
+  color: #ffffff;
+}
+
+.contacts__phone {
+  font-size: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+ }
+
+.hours {
+  opacity: 0.7;
+  text-decoration: underline;
+  font-size: 14px;
+}

@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif; 
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__content {
+  flex: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.title__section {
+  margin-top: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1060px;
+}
+
+.main__pictire-plane {
+  margin-top: 12px;
+  margin-bottom: 16px;
+  width: 1007px;
+  height: 299px;
+}
+
+
+main {
+  width: 85%;
+ }
+
+ .content {
+   display: flex;
+ }

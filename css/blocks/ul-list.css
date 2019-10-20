@@ -1,0 +1,24 @@
+
+.ul-list {
+  display: inline-block;
+  text-align: center;
+}
+
+.ul-list__item {
+  text-align: left;
+  position: relative;
+  padding-left: 25px;
+}
+
+.ul-list__item::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%)
+}

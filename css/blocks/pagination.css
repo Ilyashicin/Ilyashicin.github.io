@@ -1,0 +1,44 @@
+
+.pagination {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.pagination__controls-disabled {
+  color: #cccccc; 
+  cursor: text;
+}
+
+.pagination__controls, .pagination__item, .pagination__list, .pagination__display, .about-us, .title__socials, .socials__list, .socials__item {
+  display: inline-block;
+}
+
+
+.pagination__display {
+  font-size: 14px;
+  font-weight: 300;
+  color: #656464;
+  margin-right: 10px;
+}
+
+.pagination__item {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.pagination__item:first-child{
+  background-color: #4b73b5;
+}
+
+
+.pagination__link{
+  color: #221f1f;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.pagination__link--active{
+  color: white;
+  line-height: 25px;
+}

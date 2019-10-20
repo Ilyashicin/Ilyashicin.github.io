@@ -1,0 +1,82 @@
+
+
+aside {
+  width: 15%;
+  padding-top: 45px;
+}
+
+
+.nav__item {
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.nav__item:last-child {
+  margin-bottom: 0px;
+}
+
+.nav__link {
+  color: #4b73b5;
+  font-size: 12px;
+  font-weight: 700; 
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  background: center center /contain;
+}
+
+.nav__link:before {
+  content: "";
+  width: 23px;
+  height: 18px;
+  }
+  
+
+.nav__link--icon--arrow:before {
+  background-image: url("../img/main_icon_blue.png");
+  background-repeat: no-repeat;
+}
+
+.nav__link--icon--star:before {
+  background-image: url("../img/feed_icon.png");
+  background-repeat: no-repeat;
+}
+.nav__link--icon--crew:before {
+  background-image: url("../img/team_icon.png");
+  background-repeat: no-repeat;
+}
+
+.nav__link:hover {
+  color: #221f1f;
+}
+
+.nav__item--active .nav__link {
+  color: #221f1f;
+}
+
+.nav__link--icon--arrow:hover:before{
+  background-image: url("../img/main_icon.png");
+  background-repeat: no-repeat;
+}
+
+.nav__link--icon--star:hover:before {
+  background-image: url("../img/feed_icon.png");
+  background-repeat: no-repeat;
+}
+.nav__link--icon--crew:hover:before{
+  background-image: url("../img/team_icon_black.png");
+  background-repeat: no-repeat;
+}
+
+.nav__item--active .nav__link--icon--arrow:before{
+  background-image: url("../img/main_icon.png");
+  background-repeat: no-repeat;
+}
+
+.nav__item--active .nav__link--icon--star:before {
+  background-image: url("../img/feed_icon.png");
+  background-repeat: no-repeat;
+}
+.nav__item--active .nav__link--icon--crew:before{
+  background-image: url("../img/team_icon_black.png");
+  background-repeat: no-repeat;
+}

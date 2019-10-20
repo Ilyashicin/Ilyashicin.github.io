@@ -1,0 +1,86 @@
+
+.tarifs {
+  margin-bottom: 60px;
+}
+
+.title__section {
+  color: #221f1f;
+  font-size: 49px;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+
+.tarifs__list {
+  margin-left: -20px;
+}
+
+.tarifs__item {
+  display: inline-block;
+  text-align: center;
+  min-width: 250px;
+  margin-left: 20px;
+  padding-top: 41px;
+  padding-bottom: 48px;
+  border: 1px solid transparent;
+  
+}
+
+.tarifs__item:hover {
+  border-radius: 5px;
+  border: 1px solid #e8e9ed;
+}
+
+.tarifs__icon-container {
+  width: 68px;
+  height: 68px;
+  background-color: #4b73b5;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.tarifs__icon {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title__list {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #212121;
+  letter-spacing: 2.88px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.tarifs__desc-container {
+  display: inline-block;
+  text-align: center;
+  color: #221f1f;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+
+.tarifs__item p, .ul-list__item {
+  margin-top: 0px;
+  width: 188px;
+}
+
+
+.price {
+  color: #212121;
+  font-size: 54px;
+  font-weight: 400;
+  letter-spacing: -1.07px;
+}
+
+.currency {
+  font-size: 35px;
+}
