@@ -14,8 +14,13 @@ body {
   flex-direction: column;
 }
 
-.wrapper__content {
-  flex: 1;
+.content {
+  flex: 1 0 auto;
+  min-height: 100%;
+}
+
+.footer__container {
+  flex: 0 0 auto;
 }
 
 * {
