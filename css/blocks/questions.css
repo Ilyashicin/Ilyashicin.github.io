@@ -1,5 +1,18 @@
 .questions {
   min-height: 170px;
   background-color: #4bb56b;  
-  background-image: url('/img/');
+  background-image: url("/img/Group_1.png");
+  display: flex;
+  justify-content: center;
+}
+
+.questions__text {
+  max-width: 700px;
+}
+
+.question__text p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
 }
