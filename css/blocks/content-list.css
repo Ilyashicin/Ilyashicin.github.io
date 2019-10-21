@@ -22,7 +22,7 @@
   border-radius: 50%;
   overflow: hidden;
   margin-right: 15px;
-
+  position: relative;
 }
 
 .avatar__img {
