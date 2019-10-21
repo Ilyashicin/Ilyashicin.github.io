@@ -4,15 +4,31 @@
   background-image: url("/img/Group_1.png");
   display: flex;
   justify-content: center;
+  margin-bottom: 58px;
+
 }
 
 .questions__text {
   max-width: 700px;
+  display: flex;
+  align-items: center;
 }
 
-.question__text p {
+.questions__text p {
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
   color: #ffffff;
+}
+
+.questions__text p a {
+  text-decoration: underline;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.questions__phone {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bolder;
 }
