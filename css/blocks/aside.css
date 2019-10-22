@@ -1,14 +1,22 @@
 
 
 aside {
-  min-width: 15%;
+  max-width: 15%;
   padding-top: 45px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: flex-start;
+  max-width: inherit;
+  flex-wrap: wrap;;
 }
 
 
 .nav__item {
   padding-bottom: 30px;
   padding-left: 30px;
+  display: flex;
 }
 
 .nav__item:last-child {

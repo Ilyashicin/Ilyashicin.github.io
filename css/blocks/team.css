@@ -52,7 +52,7 @@
   text-align: center;
 }
 
-.avatar::before {
+.team__avatar::before {
   content: "";
   position: absolute;
   top: 0;
