@@ -12,3 +12,12 @@
   margin-bottom: 80px;
   text-align: center;
 }
+
+.partners__link {
+  opacity: .4;
+}
+
+.partners__link:hover {
+  opacity: 1;
+  transition: .3s;
+}

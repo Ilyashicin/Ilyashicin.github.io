@@ -4,10 +4,16 @@
   margin-bottom: 50px;
 }
 
+
+.pagination__controls-prev, .pagination__controls-next {
+  color: #221f1f;
+}
+
 .pagination__controls-disabled {
   color: #cccccc; 
   cursor: text;
 }
+
 
 .pagination__controls, .pagination__item, .pagination__list, .pagination__display, .about-us, .title__socials, .socials__list, .socials__item {
   display: inline-block;
@@ -36,6 +42,10 @@
   color: #221f1f;
   font-size: 14px;
   font-weight: 700;
+}
+
+.pagination__link:hover {
+  color: #4b73b5;
 }
 
 .pagination__link--active{
