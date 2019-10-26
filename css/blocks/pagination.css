@@ -29,23 +29,11 @@
   padding-left: 18px;
 }
 
-/**.pagination__controls-next {
-  width: 25px;
-  height: 25px;
-  background-image: url("../../img/reviews/arrow_next.png");
-  background-repeat: no-repeat;
-  object-fit: cover;
-}**/
-
 .pagination__controls-disabled {
   color: #cccccc; 
   cursor: text;
 }
 
-
-/**.pagination__controls, .pagination__item, .pagination__list, .pagination__display, .about-us, .title__socials, .socials__list, .socials__item {
-  display: inline-block;
-}**/
 
 
 .pagination__display {
