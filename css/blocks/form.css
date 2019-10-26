@@ -78,13 +78,15 @@
   border-radius: 4px;
   cursor: pointer;
   transition: 0.5s;
+  display: flex;
 }
 
 .button:after {
   content: "";
   width: 23px;
   height: 18px;
-  background: url("../../img/reviews/Vector_Smart_Object.png") no-repeat;
+  background-image: url("../../img/reviews/Vector_Smart_Object.png");
+  background-repeat: no-repeat;
 }
 
 .button:hover::after {
