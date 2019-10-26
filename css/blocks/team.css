@@ -18,7 +18,7 @@
 .team__item {
   flex-wrap: wrap;
   max-width: calc(100%/3 - 40px);
-  min-height: 375px;
+ 
   margin-left: 40px;
 }
 

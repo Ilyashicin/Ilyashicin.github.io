@@ -12,6 +12,7 @@
 
 .tarifs__list {
   margin-left: -20px;
+  display: flex;
 }
 
 .tarifs__item {

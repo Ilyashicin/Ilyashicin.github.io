@@ -80,6 +80,17 @@
   transition: 0.5s;
 }
 
+.button:after {
+  content: "";
+  width: 23px;
+  height: 18px;
+  background: url("../../img/reviews/Vector_Smart_Object.png") no-repeat;
+}
+
+.button:hover::after {
+  background-image: url("../../img/main_icon_blue.png");
+}
+
 .button:hover {
   background-color: #ffffff;
   color: #4b73b5;
@@ -90,13 +101,13 @@
 }
 
 .form__radio-label {
-  margin-right: 20px;
+  
   display: flex;
   align-items: center;
 }
 
 .form__radio-input {
-  display: none;
+  visibility: hidden;
 }
 
 .form__radio-text {

@@ -26,6 +26,11 @@ footer {
   color: inherit;
 }
 
+.about-us p {
+  margin: 0;
+  padding: 10px 0;
+}
+
 .title__socials {
   font-size: 14px;
   font-weight: 700;

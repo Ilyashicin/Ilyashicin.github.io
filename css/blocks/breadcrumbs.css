@@ -23,7 +23,7 @@
   vertical-align: middle;
 }
 
-.breadcrumbs__item--active a{
+.breadcrumbs__item--active span{
   color: #221f1f;
   text-decoration: none;
 }

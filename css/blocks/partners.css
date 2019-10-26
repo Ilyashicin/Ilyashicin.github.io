@@ -14,10 +14,10 @@
 }
 
 .partners__link {
-  opacity: .4;
+  filter: grayscale(1);
 }
 
 .partners__link:hover {
-  opacity: 1;
+  filter: grayscale(0);
   transition: .3s;
 }
