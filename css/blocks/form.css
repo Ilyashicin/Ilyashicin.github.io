@@ -62,7 +62,9 @@
 } 
 
 .form__button {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .button {
@@ -79,18 +81,22 @@
   cursor: pointer;
   transition: 0.5s;
   display: flex;
+  align-items: center;
+  
 }
 
 .button:after {
   content: "";
   width: 23px;
   height: 18px;
-  background-image: url("../../img/reviews/Vector_Smart_Object.png");
+  background-image: url("../../img/reviews/Vector_Smart_Object\ _white.png");
   background-repeat: no-repeat;
+  margin-left: 5px;
 }
 
 .button:hover::after {
-  background-image: url("../../img/main_icon_blue.png");
+  background-image: url("../../img/reviews/Vector_Smart_Object.png");
+  transition: .5s;
 }
 
 .button:hover {

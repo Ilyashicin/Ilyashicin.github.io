@@ -4,10 +4,38 @@
   margin-bottom: 50px;
 }
 
-
-.pagination__controls-prev, .pagination__controls-next {
-  color: #221f1f;
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.pagination__list {
+  display: inline-flex;
+  align-items: center;
+}
+
+.pagination__controls {
+  display: flex;
+  align-items: center;
+  }
+
+.pagination__controls-prev {
+  padding-left: 18px;
+  transform: rotate(180deg);
+}
+
+.pagination__controls-next {
+  padding-left: 18px;
+}
+
+/**.pagination__controls-next {
+  width: 25px;
+  height: 25px;
+  background-image: url("../../img/reviews/arrow_next.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+}**/
 
 .pagination__controls-disabled {
   color: #cccccc; 
@@ -15,9 +43,9 @@
 }
 
 
-.pagination__controls, .pagination__item, .pagination__list, .pagination__display, .about-us, .title__socials, .socials__list, .socials__item {
+/**.pagination__controls, .pagination__item, .pagination__list, .pagination__display, .about-us, .title__socials, .socials__list, .socials__item {
   display: inline-block;
-}
+}**/
 
 
 .pagination__display {
@@ -42,6 +70,7 @@
   color: #221f1f;
   font-size: 14px;
   font-weight: 700;
+  line-height: 25px;
 }
 
 .pagination__link:hover {
