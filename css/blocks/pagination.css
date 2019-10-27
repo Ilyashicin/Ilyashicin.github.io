@@ -21,11 +21,16 @@
   }
 
 .pagination__controls-prev {
-  padding-left: 18px;
-  transform: rotate(180deg);
+  width: 25px;
+  height: 25px;
+  background: url("../../img/reviews/arrow_next_disabled.png") center center no-repeat;
+  margin-right: 12px;
 }
 
 .pagination__controls-next {
+  width: 25px;
+  height: 25px;
+  background: url("../../img/reviews/arrow_next.png") center center no-repeat;
   padding-left: 18px;
 }
 

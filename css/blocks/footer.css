@@ -60,3 +60,23 @@ footer {
 .link-icon__container:hover {
   background-color: #ffffff;
 }
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 160px;
+}
+
+.socials__list {
+  display: flex;
+}
+
+.socials__item {
+  margin-right: 7px;
+}
+
+.socials__item:last-child {
+  margin: 0;
+}

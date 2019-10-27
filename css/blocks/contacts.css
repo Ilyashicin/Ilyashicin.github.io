@@ -3,6 +3,7 @@
 .contacts {
   text-align: right;
   color: #ffffff;
+  position: relative;
 }
 
 .contacts__phone {
@@ -18,4 +19,59 @@
   text-decoration: underline;
   font-size: 14px;
   color: #ffffff;
+}
+
+.schedule {
+  position: absolute;
+  opacity: .5;
+  left: -9999px;
+  top: 100%;
+  margin-top: 20px;
+  padding: 19px 21px;
+  color: #000000;
+  background: #ffffff;
+  border-radius: 5px;
+  font-weight: 14px;
+  line-height: 18px;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+  transition: .3s;
+  text-align: left;
+}
+
+.contacts__time:hover .schedule {
+  opacity: 1;
+  right: 0;
+  left: initial;
+}
+
+.schedule::before {
+  content: "";
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  background-color: #fff;
+  top: -8px;
+  right: 4px;
+  transform: rotate(45deg);
+  box-shadow: -3px -3px 3px rgba(0, 0, 0, 0.2) ;
+}
+
+.schedule::after {
+  content: "";
+  display: block;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -20px;
+}
+
+.schedule__work {
+  color: #1c5bc3;
+  font-weight: bold;
+}
+
+.schedule__nowork {
+  color: #221f1f;
+  font-weight: 300;
 }
