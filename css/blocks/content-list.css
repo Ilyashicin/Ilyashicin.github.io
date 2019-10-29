@@ -9,6 +9,7 @@
   padding-bottom: 30px;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .content-list__item:last-child{
@@ -54,4 +55,31 @@
   line-height: 30px;
   margin: 0;
   font-size: 18px;
+}
+
+.content-list_row {
+  display: inline-flex;
+}
+.content-list_row li {
+  width: 261px;
+  border-bottom: none;
+  display: flex;
+  justify-content: center;
+  margin-right: 36px;
+}
+
+.content-list_row li:last-child {
+  margin-right: 0;
+}
+
+.content-list_row .avatar {
+  margin-bottom: 47px;
+}
+
+.title__section {
+  margin-bottom: 40px;
+}
+
+.content-list_row li p {
+  font-size: 
 }

@@ -1,7 +1,7 @@
 
 
 aside {
-  max-width: 15%;
+  min-width: 15%;
   padding-top: 45px;
   margin-right: 20px;
 }
@@ -10,7 +10,8 @@ aside {
   display: flex;
   justify-content: flex-start;
   max-width: inherit;
-  flex-wrap: wrap;;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 
@@ -92,3 +93,17 @@ aside {
   background-image: url("../../img/team_icon_black.png");
   background-repeat: no-repeat;
 }
+
+.nav__item_row {
+  margin-right: 95px;
+ }
+
+ .nav_row .nav__list{
+  flex-direction: row;
+ }
+
+ .nav__item_row:last-child {
+   margin-right: 0;
+ }
+
+ 

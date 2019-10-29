@@ -50,6 +50,10 @@ footer {
   height: 20px;
 }
 
+.socials_aside .link-icon__container {
+  background-color: #ffffff;
+}
+
 .link-icon {
   position: absolute;
   left: 50%;
@@ -61,12 +65,16 @@ footer {
   background-color: #ffffff;
 }
 
+.socials_aside .link-icon__container:hover {
+  background-color: #d2def3;
+}
+
 .socials {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 160px;
+  flex-direction: column;
 }
 
 .socials__list {
@@ -79,4 +87,29 @@ footer {
 
 .socials__item:last-child {
   margin: 0;
+}
+
+.socials_aside .link-icon__container {
+  overflow: hidden;
+  background-image: url("../../img/web/web_sprite.png");
+}
+
+.socials_aside .vk  {
+  background-position: 23px 21px;
+}
+
+.socials_aside .fb {
+  background-position: 2px -1px;
+}
+
+.socials_aside .gl {
+  background-position: -17px 1px;
+}
+
+.socials_aside .tw {
+  background-position: 21px 1px;
+}
+
+.socials_aside .ml {
+  background-position: -17px -19px;
 }

@@ -85,3 +85,16 @@
 .currency {
   font-size: 35px;
 }
+
+
+.title__tarif_best {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;  
+  color: #221f1f;
+}
+
+.title__list_best {
+  padding-top: 30px;
+}

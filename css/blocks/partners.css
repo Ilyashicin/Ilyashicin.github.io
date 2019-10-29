@@ -15,9 +15,39 @@
 
 .partners__link {
   filter: grayscale(1);
+  display: flex;
+  justify-content: center;
 }
 
 .partners__link:hover {
   filter: grayscale(0);
   transition: .3s;
+}
+
+.partners_aside .partners__list {
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.partners_aside .partners__item {
+  max-width: 121px;
+  margin-bottom: 50px;
+}
+
+.partners_aside .title__section {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #221f1f;
+  text-align: center;
+}
+
+.partners_aside {
+  border: 1px solid transparent;
+}
+
+.partners_aside:hover {
+  border: 1px solid #e8e9ed;
 }
